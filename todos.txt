@@ -1,8 +1,7 @@
 feed the fish
-lick the icecream
-buy a phone
-clip mushu's nails
-go to the trainstation
+clean the program
 call mom
 add the order to the list
 Master Python!
+Example
+new orderAnd Lastly
