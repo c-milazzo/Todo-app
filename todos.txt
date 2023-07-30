@@ -1,7 +1,4 @@
 feed the fish
 clean the program
-call mom
-add the order to the list
-Master Python!
-Example
-new orderAnd Lastly
+call dadMaster Python!
+New Example
