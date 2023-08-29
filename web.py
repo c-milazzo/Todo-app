@@ -14,14 +14,13 @@ st.write('This app is to increase your productivity'
          ' by allowing you to keep track of tasks that need '
          'to be completed.')
 
-
-for todo in todos:
-    st.checkbox(todo)
+for index, todo in enumerate(todos):
+    checkbox = st.checkbox(todo, key=todo)
+    if checkbox:
+        todos.pop(index)
+        Functions.write_todos(todos)
+        del st.session_state[todo]
+        st.experimental_rerun()
 
 st.text_input(label='Enter a task that needs completion: ', placeholder="Enter a task: ",
               on_change=add_todo, key='new_todo')
-
-
-print("hello")
-
-st.session_state
